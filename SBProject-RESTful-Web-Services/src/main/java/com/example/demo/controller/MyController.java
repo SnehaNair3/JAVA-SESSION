@@ -42,6 +42,7 @@ public class MyController {
 		}
 	}
 
+	
 	@PutMapping("/user/{id}")
 	public ResponseEntity<User> updateUserDetails(@PathVariable int id, @RequestBody User user) {
 		User updateUser = userService.updateUserDetails(id, user);
