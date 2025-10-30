@@ -1,0 +1,14 @@
+package java_core.java8_features.stream_api;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ConvertToList {
+	public static void main(String[] args) {
+		List<String> cities = Arrays.asList("NewYork", "Sydney", "Mumbai", "Delhi", "Auckland", "Seoul");
+
+		List<String> citiesWithS = cities.stream().filter(city -> city.startsWith("S")).collect(Collectors.toList());
+		System.out.println(citiesWithS);
+	}
+}
