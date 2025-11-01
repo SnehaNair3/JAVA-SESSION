@@ -1,0 +1,30 @@
+package java_core.java8_features.optional_class;
+
+import java.util.Optional;
+
+public class OptionalClassExamples {
+	public static void main(String[] args) {
+
+		isPresentOptionalAPI();
+		createEmptyOptionalObject();
+		createEmptyOptionalObjectWithStaticAPI();
+		ifPresentOptionalAPI();
+		orElseOptionalAPI();
+		orElseOptionalAPI();
+		orElseGetOptionalAPI();
+		orElseThrowOptionalAPI();
+		getOptionalAPI();
+	}
+
+	// Returns an Optional with the specified present non-null value.
+	private static void isPresentOptionalAPI() {
+		Optional<String> opt1 = Optional.of("Ram");
+		System.out.println(opt1.isPresent());
+	}
+
+	// Returns an Optional with the specified present non-null value.
+	public static void createEmptyOptionalObject() {
+		Optional<String> opt2 = Optional.empty();
+		System.out.println(opt2.isPresent());
+	}
+}

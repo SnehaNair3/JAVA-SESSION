@@ -1,0 +1,22 @@
+package java_core.collections.set_interface.treeset;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class OperationsOnTreeSet {
+	public static void main(String[] args) {
+		Set<String> planets = new TreeSet<String>(String.CASE_INSENSITIVE_ORDER);
+
+		planets.add("Earth");
+		planets.add("Mercury");
+		planets.add("Venus");
+		planets.add("Mars");
+		planets.add("Jupiter");
+
+		System.out.println("Set : " + planets);
+		System.out.println("Size of treeset : " + planets.size());
+
+		System.out.println("Pluto exists : " + planets.contains("Pluto"));
+		System.out.println("Mars exists : " + planets.contains("Mars"));
+	}
+}

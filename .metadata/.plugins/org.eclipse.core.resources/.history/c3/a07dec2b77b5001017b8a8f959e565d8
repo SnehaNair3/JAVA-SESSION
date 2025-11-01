@@ -1,0 +1,5 @@
+package java_core.java8_features.method_references.reference_to_static_method;
+
+public class Operation {
+
+}

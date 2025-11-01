@@ -1,0 +1,24 @@
+package java_core.java8_features.lambda_expressions.example7.ComparatorWithLambda;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+import java_core.java8_features.lambda_expressions.example7.ComparatorWithoutLambda.Employee;
+
+public class Employee2Main {
+	public static void main(String[] args) {
+		List<Employee2> elist = new ArrayList<Employee2>();
+
+		elist.add(new Employee2("Sarah", 20));
+		elist.add(new Employee2("Vinay", 29));
+		elist.add(new Employee2("Aju", 15));
+		elist.add(new Employee2("Divya", 14));
+		elist.add(new Employee2("Naina", 34));
+		
+		Collections.sort(elist,Comparator<Employee2> comp= (Employee2 e1, Employee2 e2) -> {
+			return e1.getName().compareTo(e2.getName());
+		});
+	}
+}

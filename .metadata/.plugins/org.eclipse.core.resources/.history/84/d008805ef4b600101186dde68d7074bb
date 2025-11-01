@@ -1,0 +1,7 @@
+package java_core.arrays.arrays_of_objects;
+
+public class Student {
+	String name;
+	int age;
+String city
+}

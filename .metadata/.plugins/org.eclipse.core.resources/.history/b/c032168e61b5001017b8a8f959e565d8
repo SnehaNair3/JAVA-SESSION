@@ -1,0 +1,23 @@
+package java_core.java8_features.stream_api;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class SortElements {
+	public static void main(String[] args) {
+		List<String> states = Arrays.asList("Kerala", "Karnataka", "Goa", "Assam", "TamilNadu", "Sikkim");
+
+		List<String> sortedStates = states.stream().sorted().collect(Collectors.toList());
+		System.out.println(sortedStates);
+		
+		
+		List<Integer> nums=Arrays.asList(4,7,8,56,78,1);
+		Comparator<Integer> com=(num1,num2) -> {
+			return num2-num1;
+		};
+		
+		nums.stream().sorted(com).forEach(num : System.out::println);
+	}
+}

@@ -1,0 +1,17 @@
+package java_core.java8_features.default_static_methods_interface;
+
+interface Vehicle {
+	default void start() {
+		System.out.println("Vehicle started.");
+	}
+
+	static void stop() {
+		System.out.println("Vehicle stopped.");
+	}
+}
+
+public class Car implements Vehicle {
+	public static void main(String[] args) {
+
+	}
+}

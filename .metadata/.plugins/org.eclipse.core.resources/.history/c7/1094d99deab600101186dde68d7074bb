@@ -1,0 +1,23 @@
+package java_core.collections.set_interface.treeset;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class CaseInsensitive {
+	public static void main(String[] args) {
+		Set<String> days = new TreeSet<String>(String.CASE_INSENSITIVE_ORDER);
+
+		days.add("Monday");
+		days.add("tuesday");
+		days.add("wednesday");
+		days.add("Thursday");
+		days.add("friday");
+		days.add("Saturday");
+		days.add("sunday");
+
+		System.out.println("Treeset : " + days);
+
+		days.add("Sunday");
+		System.out.println("After adding sunday : " + days);
+	}
+}

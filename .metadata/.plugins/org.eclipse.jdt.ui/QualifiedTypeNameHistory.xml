@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.functional_interface.example1.Exercise"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example1.Drawable"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example2.Sayable"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example3.Sound"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example4.Addable"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example5.Average"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example7.WithoutComparator.SortByName"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example7.WithoutComparator.Employee"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example7.ComparatorWithLambda.Employee2"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example8.IterateAL"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.lambda_expressions.example9.IterateHashMap"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.default_static_methods_interface.Car"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.default_static_methods_interface.Vehicle"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java_core.java8_features.method_references.reference_to_static_method.Operation"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java_core.collections.set_interface.treeset.user_defined.Person"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java_core.arrays.arrays_of_objects.Student"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

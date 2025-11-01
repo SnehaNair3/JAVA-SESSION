@@ -1,0 +1,16 @@
+package java_core.java8_features.lambda_expressions.example5;
+
+public class AverageMain {
+	public static void main(String[] args) {
+ 
+		Average average=() -> {
+			double sum=0;
+			
+			int arrSize=
+		}
+		
+		
+		int[] arr= {1,2,3,4,5};
+		average.avg(arr);
+	}
+}

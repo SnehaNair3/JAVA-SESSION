@@ -1,0 +1,12 @@
+package java_core.collections.set_interface.treeset;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class AccessElements {
+
+	Set<String> planets=new TreeSet<String>();
+	
+	
+	
+}

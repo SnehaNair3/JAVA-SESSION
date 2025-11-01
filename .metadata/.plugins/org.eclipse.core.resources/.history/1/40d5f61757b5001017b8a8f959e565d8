@@ -1,0 +1,15 @@
+package java_core.java8_features.lambda_expressions.example7.WithoutComparator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeMain {
+	public static void main(String[] args) {
+		List<Employee> el = new ArrayList<Employee>();
+		el.add(new Employee("Sarah", 20));
+		el.add(new Employee("Vinay", 29));
+		el.add(new Employee("Aju", 15));
+		el.add(new Employee("Divya", 14));
+		el.add(new Employee("Naina", 34));
+	}
+}

@@ -1,0 +1,52 @@
+package java_core.collections.set_interface.hashset;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+public class BasicHashSet {
+	public static void main(String[] args) {
+		Set<String> fruits = new HashSet<String>();
+
+		fruits.add("Banana");
+		fruits.add("Apple");
+		fruits.add("Mango");
+		fruits.add("Plum");
+		fruits.add("Plum");
+		fruits.add("Fig");
+
+		System.out.println("Set : " + fruits);
+
+		Iterator<String> it = fruits.iterator();
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+
+		List<String> color = new ArrayList<String>();
+		color.add("Yellow");
+		color.add("Red");
+		color.add("Orange");
+		color.add("Green");
+
+		System.out.println("List is : " + color);
+
+		System.out.println("Adding list to hashset : " + fruits.addAll(color));
+		System.out.println("Set after adding list : " + fruits);
+
+		// remove elements
+		System.out.println(fruits.remove("Plum"));
+		System.out.println("Set after removing plum : " + fruits);
+
+		System.out.println(fruits.removeAll(color));
+		System.out.println("Set after removing color : " + fruits);
+
+		System.out.println(fruits.removeIf(fruit -> fruit.startsWith("A")));
+		System.out.println("Set after removing Apple : " + fruits);
+
+		System.out.println("==========================================");
+		System.out.println("Set iterating foreach method");
+		fruits.forEach(fruit -> System.out.println(fruit));
+	}
+}

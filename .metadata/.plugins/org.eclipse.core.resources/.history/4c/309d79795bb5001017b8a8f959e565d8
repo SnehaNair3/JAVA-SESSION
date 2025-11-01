@@ -1,0 +1,17 @@
+package java_core.java8_features.lambda_expressions.example9;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class IterateHashMap {
+	public static void main(String[] args) {
+		Map<String, Integer> fruit = new HashMap<String, Integer>();
+
+		fruit.put("Apple", 10);
+		fruit.put("Orange", 30);
+		fruit.put("Banana", 24);
+		fruit.put("Kiwi", 90);
+		fruit.put("Cherry", 100);
+
+	}
+}

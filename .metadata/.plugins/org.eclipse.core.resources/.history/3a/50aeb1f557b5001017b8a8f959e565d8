@@ -1,0 +1,9 @@
+package java_core.java8_features.lambda_expressions.example7.ComparatorWithLambda;
+
+import java.util.Comparator;
+
+public class Employee2Main {
+	public static void main(String[] args) {
+
+	}
+}

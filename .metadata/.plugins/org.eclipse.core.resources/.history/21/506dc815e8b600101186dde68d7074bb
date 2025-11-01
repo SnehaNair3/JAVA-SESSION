@@ -1,0 +1,5 @@
+package java_core.collections.set_interface.hashset;
+
+public class ThreadSafeHashset {
+
+}

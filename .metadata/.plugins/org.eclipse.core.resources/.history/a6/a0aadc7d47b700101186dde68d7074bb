@@ -1,0 +1,27 @@
+package java_core.coding_problems.string;
+
+import java.util.Scanner;
+
+public class PrintLetterTwice {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the string : ");
+		String str = sc.nextLine();
+
+		System.out.println("Original string : " + str);
+		String doubledString = doubleLetters(str);
+		System.out.println("Doubled string : " + doubledString);
+
+	}
+
+	public static String doubleLetters(String str) {
+		StringBuilder result = new StringBuilder();
+
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			result.append(ch).append(ch);
+		}
+
+		return result.toString();
+	}
+}
