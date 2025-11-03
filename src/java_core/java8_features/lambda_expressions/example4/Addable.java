@@ -1,0 +1,5 @@
+package java_core.java8_features.lambda_expressions.example4;
+
+public interface Addable {
+	int add(int a, int b);
+}

@@ -1,0 +1,18 @@
+package java_core.collections.set_interface.hashset.userDefined_hashset;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class CustomerMain {
+	public static void main(String[] args) {
+
+		Set<Customer> cust=new HashSet<Customer>();
+		
+		cust.add(new Customer("Shreya",1,35));
+		cust.add(new Customer("Varun",2,24));
+		cust.add(new Customer("Arjun",13,12));
+		
+		System.out.println(cust);
+		
+	}
+}
