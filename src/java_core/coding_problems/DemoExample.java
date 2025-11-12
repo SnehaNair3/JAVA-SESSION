@@ -7,12 +7,24 @@ import java.util.Set;
 public class DemoExample {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter first  string : ");
-		String str1 = sc.nextLine();
+		System.out.println("Enter the  string : ");
+		String str = sc.nextLine();
 
-		
+		String strWithoutSpaces = removeSpaces(str);
+		System.out.println("String without spaces : " + strWithoutSpaces);
+
 	}
 
-	
+	public static String removeSpaces(String input) {
+		StringBuilder sb = new StringBuilder();
+
+		for (int i = 0; i < input.length(); i++) {
+			if (input.charAt(i) != ' ') {
+				sb.append(input.charAt(i));
+			}
+		}
+
+		return sb.toString();
+	}
 
 }
