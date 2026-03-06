@@ -1,0 +1,5 @@
+package java_core.collections.list_interface.stack;
+
+public class StackImplemetationUsingArrayDeque {
+
+}
